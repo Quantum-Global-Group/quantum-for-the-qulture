@@ -12,7 +12,7 @@ That page listed the credential as Live. It said the required exam is Fundamenta
 
 The live page's public topic list includes quantum operations, visualizing circuits and states, basic circuits, running circuits, the sampler primitive, the estimator primitive, and reading results. Lab 001 gives you one careful example of several of those ideas: a two-qubit circuit, a local sampler, a local estimator, and a local transpilation.
 
-The same page also includes dynamic circuits, parameterized circuits, execution modes, primitive options, job monitoring, and OpenQASM 3. Lab 001 does not teach those. A person who wants the credential still needs the official objectives and a broader set of practice than this repository currently contains.
+The same page also includes dynamic circuits, parameterized circuits, execution modes, primitive options, job monitoring, and OpenQASM 3. The beginner notebook shows one `assign_parameters` call and one Sampler PUB with two angles. That is a single example. Lab 001 does not teach dynamic circuits, execution modes, primitive options, job monitoring, or OpenQASM 3. A person who wants the credential still needs the official objectives and a broader set of practice than this repository currently contains. A score inside the beginner notebook is practice for that lesson. It is not the exam.
 
 Passing the exam is optional. It is one way to demonstrate Qiskit skill to someone who recognizes the credential. It is not a requirement of this pathway, and it is not a job offer.
 

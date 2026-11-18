@@ -20,7 +20,7 @@ They compare what they already know with the prerequisites of the next lab. For 
 
 ### Start learning
 
-They read [getting-started.md](getting-started.md) and open Lab 001. The notebook is public. Membership in the learning community is an invitation, not a gate.
+They read [getting-started.md](getting-started.md) and open Lab 001. The beginner notebook is the first file. The advanced notebook is the original reference. Both are public. Membership in the learning community is an invitation, not a gate.
 
 ### Code it
 

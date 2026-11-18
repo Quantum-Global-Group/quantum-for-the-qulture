@@ -2,7 +2,9 @@
 
 Lab 001 of Quantum for the Qulture, an initiative of Quantum Global Group.
 
-You can complete this sheet from the notebook, from a class demonstration, or from the Qubi observation plus the printed results. Write the prediction before you see the run. Lines are there so the reasoning has somewhere to go.
+Start in [entanglement_beginner.ipynb](entanglement_beginner.ipynb) if this is your first time. The questions there are answered in the notebook, one at a time. This worksheet follows the advanced notebook, [entanglement_hands_to_hardware.ipynb](entanglement_hands_to_hardware.ipynb), including the vectors, the expectations, and the memory walk.
+
+You can complete this sheet from the advanced notebook, from a class demonstration, or from the Qubi observation plus the printed results. Write the prediction before you see the run. Lines are there so the reasoning has somewhere to go.
 
 Name:
 

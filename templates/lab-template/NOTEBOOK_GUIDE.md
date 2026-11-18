@@ -2,7 +2,7 @@
 
 Use this outline for a new lab notebook. Keep the code that teaches visible in the notebook. Do not hide the calculation in a module the learner never sees.
 
-Lab 001 follows this shape: [../../labs/01_entanglement/entanglement_hands_to_hardware.ipynb](../../labs/01_entanglement/entanglement_hands_to_hardware.ipynb).
+The advanced Lab 001 notebook follows this shape: [../../labs/01_entanglement/entanglement_hands_to_hardware.ipynb](../../labs/01_entanglement/entanglement_hands_to_hardware.ipynb). The beginner notebook beside it is a question-first companion. A later lab still starts from this outline.
 
 ## Cell pattern
 

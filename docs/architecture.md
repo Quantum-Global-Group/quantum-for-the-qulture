@@ -36,7 +36,7 @@ These names describe later integration points. None of them is a module in this 
 A lab has one folder. Lab 001 shows the shape:
 
 - A README that states the question and the three access levels.
-- One notebook that runs from top to bottom with `RUN_REAL_HARDWARE` left `False`.
+- Two notebooks. The beginner notebook is the recommended first run, with `RUN_REAL_HARDWARE` and `I_AUTHORIZE_ONE_QPU_JOB` left `False`. The advanced notebook keeps the original mathematics and experiments, with `RUN_REAL_HARDWARE` left `False`.
 - A student worksheet that can be used on paper.
 - An instructor guide with 60, 90, and 120 minute cuts.
 - An assets folder that contains only real files. A pointer to a future demo is allowed. A fictional video link is not.
@@ -46,7 +46,7 @@ Shared starting points for the next lab live in [../templates/](../templates/). 
 ## Runtime shape of Lab 001
 
 ```text
-Learner notebook
+Beginner or advanced notebook
     |
     +-- Level 1: read, predict, worksheet
     |
@@ -58,7 +58,7 @@ Learner notebook
                  client-side Sampler, one job, safe metadata only
 ```
 
-The level 3 branch is code a learner can read. The committed notebook does not enter it. Tests do not enter it.
+The level 3 branch is code a learner can read. The committed notebooks do not enter it. Tests do not enter it.
 
 ## Scale
 
