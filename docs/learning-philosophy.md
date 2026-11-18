@@ -25,6 +25,20 @@ Introduce one idea, give it a definition, then use it. Do not place a pile of un
 
 Advanced mathematics is not a prerequisite for the first lab. Vectors, addition, and a square root are. The lab shows each vector it uses.
 
+## Remembering
+
+A definition you understood today can be gone next week. After the definition is clear, this pathway uses a public practice from Jonas von Essen, a two-time World Memory Champion. He helped create [memoryOS](https://memoryos.com/), an app that teaches the mind-palace techniques he used. The three moves below are the ones he describes in the public interview [How to remember anything](https://lifelessons.co/personal-development/memory/). [His site](https://www.jonasvonessen.se/en/) names the app and the mind palace. These pages were opened on 18 November 2026.
+
+Three moves are enough.
+
+1. Turn the fact into an image you can see. A rough hint is enough. The picture is personal. Two people do not need the same picture for the same word.
+2. Put the images, in order, along a walk through a place you already know: a home, a shop, a park. Recall by walking that place. Rereading the page is a different activity.
+3. Walk it again before the fact has faded, and let the gap grow. His public approximation is the same evening or the next day, then about four or five days, then a few weeks, then longer. If a stop comes back easily, wait longer. If it is blank, shorten the gap and look up only that fact. He uses the spaced-repetition app Anki to make that adjustment. The app is optional. The judgment is the practice.
+
+The picture points back to the definition. The vector, the table, and the measured counts remain the definition.
+
+memoryOS teaches the same ideas with ready-made palaces, lessons, and drills. Those materials are not copied here. Two further public tools are also left out of this pathway. The Major System, his digit-to-consonant alphabet for long numbers, is for strings of digits, and Lab 001 does not ask for that. A memoryOS article names Person-Action-Object as one of his principles and does not give the encoding rules, so those rules are not invented here.
+
 ## Encouragement
 
 Encourage a learner by telling them which step they just completed and which step is next. Skip exaggerated claims. Entanglement is interesting because the joint state is precise, not because a qubit sends a message.

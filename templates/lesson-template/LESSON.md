@@ -32,6 +32,10 @@ The claim you can defend, and the claim you cannot. If a common misreading exist
 
 CHECK YOUR UNDERSTANDING. One question whose ingredients are already on the page.
 
+## Remember it
+
+If the learner should still have the fact next week, give one image and one stop on a walk through a place they already know. The later review is that walk, with a longer gap when the fact comes back and a shorter gap when it does not. The practice is Jonas von Essen's, summarized in [../../docs/learning-philosophy.md](../../docs/learning-philosophy.md). Do not add a second course, a palace copied from an app, or a review calendar more precise than the one he actually published.
+
 ## Where can I go next?
 
 The next section, or a single official page.

@@ -59,6 +59,19 @@ A claim this result does not support:
 
 _________________________________________________________________
 
+## Remember it
+
+Name a place you already know and one picture per fact this lab asks you to keep. The picture is a hint back to the definition. Walk the place with the page closed, then again on a longer gap if the facts come back. The practice is Jonas von Essen's, in [../../docs/learning-philosophy.md](../../docs/learning-philosophy.md).
+
+My place:
+
+_________________________________________________________________
+
+| Stop | The fact I must still say | My image |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+
 ## Reflection
 
 One idea I can now explain to someone else:

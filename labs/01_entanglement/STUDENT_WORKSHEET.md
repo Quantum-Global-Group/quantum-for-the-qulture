@@ -194,6 +194,29 @@ What measurement would help next?
 
 _________________________________________________________________
 
+## Memory walk
+
+This is Jonas von Essen's public practice, not a copied course. Pick a place you already know. Put one picture at each stop. The picture is yours. The fact in the middle column is the part you still have to be able to say with the notebook closed.
+
+My place:
+
+_________________________________________________________________
+
+| Stop | The fact I must still say | My image |
+| --- | --- | --- |
+| States | `|0>`, `|1>`, `|+>`, `|->` as columns | |
+| Gates | What I, X, H, and CX each do | |
+| CNOT | Control 0 leaves the target. Control 1 flips it. Which way I write the bits. | |
+| Bell | H on qubit 0, then CX(0, 1), is `(|00> + |11>) / sqrt(2)` | |
+
+Date I walked it with the notes closed:
+
+What was blank:
+
+Next walk. Longer gap if the stops came back. Shorter gap if one was blank:
+
+_________________________________________________________________
+
 ## Reflection
 
 One sentence I could use to explain this state to a friend, without saying that one qubit sends a message to the other:

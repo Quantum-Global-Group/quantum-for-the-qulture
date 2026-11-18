@@ -58,11 +58,11 @@ None for the lesson to succeed. A Classroom seat is required only for the option
 | 10 | Interpretation and one career sentence. |
 | 5 | Where the rest of the notebook lives for later. |
 
-Skip the estimator detail and both transpilation examples. Assign them as a follow-up for level 2.
+Skip the estimator detail and both transpilation examples. Assign them as a follow-up for level 2. The memory walk in section 10 is homework for this cut. The pictures are hints the learner may replace. The columns and the CNOT table are still the answers.
 
 ### 90 minutes
 
-Add the observable table and the three expectations. Have the group compute the agreement metric from the counts on the screen. Discuss why an agreement of 1 is still not proof. Show the circuit drawing and the bit-order example with X on qubit 0.
+Add the observable table and the three expectations. Have the group compute the agreement metric from the counts on the screen. Discuss why an agreement of 1 is still not proof. Show the circuit drawing and the bit-order example with X on qubit 0. Take five minutes for each person to name four stops in a place they know. Do not spend the time perfecting the pictures.
 
 ### 120 minutes
 
@@ -79,6 +79,7 @@ Add primitives and the printed PUB. Run both local transpilation examples and as
 ## Misconceptions to correct when they appear
 
 - "The qubits message each other." The circuit prepares one joint state. The correlations are properties of that state.
+- "The memory picture is the state." The picture is a hint back to the column, the gate, or the circuit. Those remain the answer.
 - "CNOT means entanglement." Show CX on `|00>`, which stays a basis state. Then show H on the control first.
 - "Only `00` and `11` proves the Bell state." A mixture can do that in the computational basis. The X and Y expectations are part of the distinction. A Bell inequality is Lab 004, which is not written yet.
 - "The simulator run was a quantum computer." It was a local statevector sample. Say the backend name if you do run hardware, and do not blur the two.

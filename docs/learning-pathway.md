@@ -40,6 +40,7 @@ Along the way it teaches the words it uses: qubit, state, basis, gate, circuit, 
 6. Look at the transpiled circuit and say what changed.
 7. Leave hardware off unless you are on level 3 and you mean to spend a job.
 8. Write the interpretation in the worksheet.
+9. Walk the four memory stops in the notebook with the page closed, then again on a longer gap. The practice is in [learning-philosophy.md](learning-philosophy.md).
 
 ## Where the official pages fit
 

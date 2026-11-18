@@ -57,3 +57,4 @@ That check rebuilds the state, the CNOT cases, the three expectations, the local
 - Why that score does not prove entanglement, and why `<XX>` and `<YY>` are part of the description.
 - What changed when the circuit was rewritten for a local device stand-in, including a case where depth grew.
 - Whether you collected a hardware result. If you did not, you say that.
+- The four stops of the memory walk, in your own pictures, and the fact each stop points back to: the state columns, what I, X, H, and CX do, the CNOT rule, and `|Phi+>`.
