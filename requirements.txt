@@ -1,0 +1,10 @@
+# Lab 001 local path. Tested with Python 3.12.3 and no IBM credentials.
+# Qiskit 2.6.2 requires Python 3.10 or newer.
+qiskit==2.6.2
+numpy==2.5.5
+matplotlib==3.11.2
+
+# Level 3 hardware access uses qiskit-ibm-runtime. Version 0.52.1 was
+# imported locally to confirm the current client-side Sampler symbol.
+# It is not required to run Lab 001, and this repository's tests do not
+# install it or submit a job. See docs/ibm-quantum-setup.md.

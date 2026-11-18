@@ -1,0 +1,15 @@
+# License notice
+
+Copyright Quantum Global Group, Inc.
+
+A final license has not been chosen. Kevin A. Robinson must approve that license before anyone treats this repository as open source or as Creative Commons material.
+
+Until that approval, all rights are reserved. This file is a notice. It is not a license grant.
+
+The approval has to cover three kinds of material, because one grant does not fit all three:
+
+1. Code, including notebooks and tests.
+2. Original educational text, including lessons, worksheets, and instructor guides.
+3. Third-party material. This repository links to Qolour, IBM Quantum, and Qiskit. It does not copy their lessons, images, or media into the tree.
+
+Do not add assets you do not have rights to share.

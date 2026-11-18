@@ -1,0 +1,24 @@
+# Credentials and local secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials.json
+qiskit-ibm.json
+.qiskit/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Notebook checkpoints and local scratch
+.ipynb_checkpoints/
+tmp/
+temp/
+*.log
