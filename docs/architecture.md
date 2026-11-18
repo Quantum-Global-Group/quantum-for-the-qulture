@@ -8,7 +8,7 @@ Quantum for the Qulture is one piece of a larger system. This repository is the 
 | --- | --- | --- |
 | This repository | Build the circuit, run it locally, read the pathway | Quantum-Global-Group/quantum-for-the-qulture |
 | Quantum Global Group website | Discover the organization and its public tools | [https://www.quantumglobalgroup.io/](https://www.quantumglobalgroup.io/) |
-| Learning community | Video, discussion, Qubi demonstrations, hardware onboarding | Hosted on Skool. The URL will be added when the founder supplies it. |
+| Learning community | Video, discussion, Qubi demonstrations, hardware onboarding | [Skool community](https://www.skool.com/quantum-for-the-qulture-8361) |
 | Qolour and Qubi | See a model qubit in your hands | [https://www.qolour.com/](https://www.qolour.com/) |
 | IBM Quantum | Run an approved circuit on hardware | IBM Quantum Platform and our Classroom seats |
 | Career Navigator | Find a direction from skills and interests | Separate website surface. Not implemented in this repository. |

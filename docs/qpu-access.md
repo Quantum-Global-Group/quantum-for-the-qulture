@@ -14,20 +14,20 @@ Access is not unlimited, and it is not automatic. A request can be declined or d
 
 A person, not a script in this repository, does each step.
 
-1. Join the learning community. The community is hosted on Skool. The link will be added when the founder supplies it.
+1. Join the learning community: [Quantum for the Qulture on Skool](https://www.skool.com/quantum-for-the-qulture-8361).
 2. Complete [getting-started.md](getting-started.md), including a local run of Lab 001.
-3. Request access in the community, using the questions below.
-4. An administrator reviews the request.
-5. If a seat should be used, the administrator sends a manual invitation.
-6. The learner accepts the invitation on IBM's own site.
+3. In Skool, submit the email address that should receive the IBM invitation, together with the other questions below.
+4. Kevin A. Robinson reviews the request.
+5. If a seat should be used, he sends the IBM invitation himself. There is no public invite link and no invite page in this repository.
+6. The learner accepts the invitation he sent. Acceptance is not a page published here.
 7. The learner completes [ibm-quantum-setup.md](ibm-quantum-setup.md).
 8. The learner runs an approved hardware activity, starting with the optional section of Lab 001, one job at a time.
 
-This repository does not send invitations, does not store the invitation URL, and does not keep an admin page.
+This repository does not send invitations, does not store emails or invitation URLs, and does not publish an invite page.
 
 ## Questions an administrator should ask
 
-Ask these in the community, not in git.
+Ask these in Skool, not in git. The email stays in the community. It is not copied into this repository.
 
 - Which email address should receive the IBM invitation?
 - What is your experience with quantum computing so far?

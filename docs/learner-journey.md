@@ -44,17 +44,17 @@ Roles, further study, and the IBM certification path as one optional credential.
 
 ## What a community session adds
 
-When the founder publishes the community link, a guided session can follow this order:
+A guided session in the [Skool community](https://www.skool.com/quantum-for-the-qulture-8361) can follow this order:
 
 1. Watch.
 2. Qubi activity.
 3. Open the notebook.
 4. Run locally.
-5. Request QPU access, if the learner wants hardware and a seat is available.
+5. Request QPU access in Skool, if the learner wants hardware and a seat is available. The request includes the email address that should receive the IBM invitation. Kevin A. Robinson reviews it and sends the invitation himself.
 6. Run on hardware, one deliberate job.
 7. Share results.
 
-The notebook remains available to anyone who never joins that session. Video, the physical Qubi demonstration, discussion, hardware onboarding, and extra preparation are the reasons to join. The community link will be added when the founder supplies it. This page does not guess a URL.
+The notebook remains available to anyone who never joins that session. Video, the physical Qubi demonstration, discussion, hardware onboarding, and extra preparation are the reasons to join. The community is [Quantum for the Qulture on Skool](https://www.skool.com/quantum-for-the-qulture-8361). This page does not collect the email, and it does not publish an IBM invite link.
 
 ## Readiness for hardware
 

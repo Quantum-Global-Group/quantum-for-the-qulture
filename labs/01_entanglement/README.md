@@ -24,9 +24,9 @@ You will see why those two basis states appear, why the other two do not, and wh
 | --- | --- | --- |
 | 1. See and understand | Qubi prompts or the written observation, then the vectors and the worksheet. | None |
 | 2. Code and simulate | Run the notebook locally. 1024 shots, no network job. | None |
-| 3. Hardware | In your own copy, after an invitation, one job. | Classroom seat |
+| 3. Hardware | After Kevin A. Robinson sends the IBM invitation, one job in your own copy. | Classroom seat |
 
-Setup for level 2 is [../../docs/getting-started.md](../../docs/getting-started.md). The seat policy is [../../docs/qpu-access.md](../../docs/qpu-access.md).
+Setup for level 2 is [../../docs/getting-started.md](../../docs/getting-started.md). Hardware access is requested in the [Skool community](https://www.skool.com/quantum-for-the-qulture-8361): join, complete Start Here, and submit there the email address that should receive the IBM invitation. He reviews the request and sends the invitation himself. There is no public IBM invite link. This repository does not store that email. The seat policy is [../../docs/qpu-access.md](../../docs/qpu-access.md).
 
 ## Files
 

@@ -43,7 +43,7 @@ If you are virtual, share the official lesson only when you have confirmed it lo
 
 ## IBM requirements
 
-None for the lesson to succeed. A Classroom seat is required only for the optional demonstration. Policy: [../../docs/qpu-access.md](../../docs/qpu-access.md). Do not put a learner email or an instance identifier on a slide or in the repository.
+None for the lesson to succeed. A Classroom seat is required only for the optional demonstration. A learner requests that seat in the [Skool community](https://www.skool.com/quantum-for-the-qulture-8361), after Start Here, by submitting the email address that should receive the IBM invitation. Kevin A. Robinson reviews the request and sends the invitation himself. There is no public invite link. Policy: [../../docs/qpu-access.md](../../docs/qpu-access.md). Do not put a learner email or an instance identifier on a slide or in the repository.
 
 ## Timing
 

@@ -65,7 +65,9 @@ Yes. The notebook simulates the Bell circuit locally. The hardware section is in
 3. If you write code, install from [requirements.txt](requirements.txt) and run `python tests/smoke_lab001.py` before you trust your setup.
 4. Keep secrets out of git. The rules are in [docs/security-and-privacy.md](docs/security-and-privacy.md).
 
-The learning community, hosted on Skool, is where video, guided Qubi demonstrations, discussion, and hardware onboarding live. The notebook is not locked behind membership. The community link will be added when the founder supplies it.
+The learning community is [Quantum for the Qulture on Skool](https://www.skool.com/quantum-for-the-qulture-8361). Video, guided Qubi demonstrations, discussion, and hardware onboarding live there. The notebook is not locked behind membership.
+
+A Classroom seat starts in that community. Join Skool, complete Start Here, and submit there the email address that should receive the IBM invitation. Kevin A. Robinson reviews the request and sends the invitation himself. There is no public IBM invite link. This repository does not collect or store that email. The policy is [docs/qpu-access.md](docs/qpu-access.md).
 
 ## Learning roadmap
 

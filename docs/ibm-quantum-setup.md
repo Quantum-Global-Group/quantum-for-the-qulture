@@ -36,6 +36,8 @@ Retired interfaces are not used. In particular, the notebook does not call `IBMQ
 
 ## Hardware path, after an invitation
 
+Use this section only after Kevin A. Robinson has sent you an IBM invitation. The request is made in the [Skool community](https://www.skool.com/quantum-for-the-qulture-8361): join, complete [getting-started.md](getting-started.md), and submit there the email address that should receive the invitation. He sends the invite himself. This page has no IBM invite link, and it does not ask you to record that email.
+
 Install the runtime package only when you are ready to use a seat:
 
 ```bash

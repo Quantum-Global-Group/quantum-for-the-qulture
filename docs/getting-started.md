@@ -34,11 +34,13 @@ You now have your own counts. Write what they show, and what they do not show, o
 
 ## Level 3. Hardware, only if you mean it
 
-Do this after level 2, and only if you have been invited to a Classroom seat. Read [qpu-access.md](qpu-access.md) first, then [ibm-quantum-setup.md](ibm-quantum-setup.md). The invitation is manual. This repository cannot grant it.
+Do this after level 2, and only after Kevin A. Robinson has sent you an IBM invitation. Join the [Skool community](https://www.skool.com/quantum-for-the-qulture-8361), complete this Start Here page, and submit in Skool the email address that should receive the invitation. He reviews that request and sends the invitation himself. There is no public IBM invite page. Read [qpu-access.md](qpu-access.md), then [ibm-quantum-setup.md](ibm-quantum-setup.md). This repository cannot grant a seat, and it does not store the email.
 
 ## The learning community
 
-A community session adds video, a guided Qubi demonstration, discussion, and the hardware onboarding conversation. The notebook is not locked behind that membership. The community is hosted on Skool. The link will be added here when the founder supplies it.
+Join [Quantum for the Qulture on Skool](https://www.skool.com/quantum-for-the-qulture-8361). A community session adds video, a guided Qubi demonstration, discussion, and the hardware onboarding conversation. The notebook is not locked behind that membership.
+
+Hardware access is requested in Skool after you finish Start Here. You submit the email address that should receive the IBM invitation. Kevin A. Robinson reviews the request and sends the invitation himself. Do not put that email in this repository.
 
 ## If you are teaching
 
