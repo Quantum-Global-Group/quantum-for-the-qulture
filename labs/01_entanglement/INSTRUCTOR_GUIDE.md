@@ -2,7 +2,47 @@
 
 Entanglement: From Your Hands to Real Hardware.
 
-An initiative by Quantum Global Group. Use this guide with the [notebook](entanglement_hands_to_hardware.ipynb) and the [worksheet](STUDENT_WORKSHEET.md). The notebook is the student-facing explanation. This page is the plan, the answers you should expect, and the places a room usually gets stuck.
+An initiative by Quantum Global Group. Use this guide with the [beginner notebook](entanglement_beginner.ipynb), the [advanced notebook](entanglement_hands_to_hardware.ipynb), and the [worksheet](STUDENT_WORKSHEET.md). The beginner notebook is the first experience. The advanced notebook keeps the original mathematics, the statevectors, the purity analysis, and the experiments. The worksheet follows the advanced notebook. This page is the plan, the answers you should expect, and the places a room usually gets stuck.
+
+## Beginner session
+
+Use this cut when the room is meeting entanglement for the first time. The advanced timing below still applies when the room is working through the original notebook.
+
+| Minutes | Focus |
+| --- | --- |
+| 5 | The route on the first screen. Hardware stays off. Name who has Qubis and who is on the no-Qubi story. |
+| 10 | Stop 1. Battery, Bluetooth, orientation, and the pair activity if the kits are in the room. Otherwise the shared classical bit. Each person writes the three notes. |
+| 15 | Q01 through Q05, then the Phi Plus circuit and the bit-order check. One letter at a time. The explanation waits for the letter. |
+| 15 | Sampler counts, then Phi Plus against Phi Minus in Z and in X. |
+| 10 | ZZ and XX with Estimator, or assign them if the hour is short. |
+| 5 | Show the mock transpilation. Read the hardware cell and leave both flags false. Close with the four sentences. |
+
+A wrong answer should get a short reason and one practice question, then the letter that fits. Do not move on by announcing the letter before the learner has chosen. The score lives in that kernel. It is not a grade book and it is not the certification exam.
+
+The published local sample, seed 7 and 512 shots on Qiskit 2.6.2, is 241 of `00` and 271 of `11` for Phi Plus in Z and in X, and for Phi Minus in Z. Phi Minus in X is 241 of `01` and 271 of `10`. Estimator returns +1, +1 for Phi Plus ZZ and XX, and +1, -1 for Phi Minus ZZ and XX. If a later Qiskit build moves the finite counts, say so. Do not replace them with a hardware story.
+
+### Beginner answer key
+
+| Question | Letter | The idea the letter protects |
+| --- | --- | --- |
+| Q01 | B | Qubis are a teaching model. |
+| Q02 | A | Only 00 and 11 is Z-basis correlation. |
+| Q03 | C | H on qubit 0 creates a superposition. It does not entangle. |
+| Q04 | B | H then CX(0, 1) prepares Phi Plus. |
+| Q05 | C | The string 01 means q1 is 0 and q0 is 1. |
+| Q06 | B | X on qubit 0 moves Phi Plus to the pair 01 and 10. |
+| Q07 | C | Z on qubit 0 changes the relative sign to Phi Minus. |
+| Q08 | A | Phi Plus and Phi Minus share the Z histogram. |
+| Q09 | C | 512 shots land near an even split and may miss it. |
+| Q10 | A | `result[0].data.meas.get_counts()` reads the first PUB. |
+| Q11 | B | H on both qubits turns the Z readout into an X question. |
+| Q12 | A | ZZ on Phi Plus is +1. |
+| Q13 | B | XX on Phi Minus is -1. |
+| Q14 | B | One PUB, and the shot count applies to each parameter setting. |
+| Q15 | C | `assign_parameters` returns a new circuit by default. |
+| Q16 | B | Transpilation rewrites a logical circuit into an ISA circuit. |
+| Q17 | C | Predict, simulate, then authorize one job on purpose. |
+| Q18 | C | Z correlation is real. A Bell inequality is a different experiment. |
 
 ## Objectives
 
@@ -25,7 +65,7 @@ Arithmetic, the idea of a column vector, and, for level 2, a working Python envi
 
 - Printed worksheets.
 - A way to display the notebook, or one laptop per pair.
-- Optional: Qubi kits and Qolour's Bell Pairs lesson, linked from [../../qubis/bell-pairs/README.md](../../qubis/bell-pairs/README.md). Test the link before class. If it fails, use the prompts in notebook section 08.
+- Optional: Qubi kits and Qolour's Bell Pairs lesson, linked from [../../qubis/bell-pairs/README.md](../../qubis/bell-pairs/README.md). Test the link before class. If it fails, use Stop 1 of the beginner notebook or the prompts in section 08 of the advanced notebook.
 - Optional hardware: one invited account, used by the instructor, for a single job. The simulation is the planned backup, not a disappointment.
 
 ## Qubi preparation
@@ -38,7 +78,7 @@ If you are virtual, share the official lesson only when you have confirmed it lo
 
 - Install from `requirements.txt` before the session if learners will run level 2. Python 3.10 or newer. The published run used Python 3.12.3, Qiskit 2.6.2, NumPy 2.5.5, and Matplotlib 3.11.2.
 - Run `python tests/smoke_lab001.py` on the instructor machine the day of class.
-- Confirm the notebook still has `RUN_REAL_HARDWARE = False`.
+- Confirm the beginner notebook still has `RUN_REAL_HARDWARE = False` and `I_AUTHORIZE_ONE_QPU_JOB = False`, and the advanced notebook still has `RUN_REAL_HARDWARE = False`.
 - Decide in advance whether any hardware job will be run. If yes, it is one job, after the local result is on screen.
 
 ## IBM requirements

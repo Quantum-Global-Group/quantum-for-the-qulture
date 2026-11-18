@@ -21,9 +21,9 @@ A section that cannot yet answer "what happened" is not finished. A section that
 
 ## How new words enter
 
-Introduce one idea, give it a definition, then use it. Do not place a pile of undefined nouns in a single paragraph. If a later lab needs a term, leave it for that lab. Lab 001 names the Bloch sphere and then sets it aside. Lab 001 names the other Bell states and does not build them.
+Introduce one idea, give it a definition, then use it. Do not place a pile of undefined nouns in a single paragraph. If a later lab needs a term, leave it for that lab. The advanced notebook names the Bloch sphere and then sets it aside. It develops Phi Plus in full. The beginner notebook builds Phi Minus and Psi Plus from Phi Plus, one gate at a time, so a sign change and a bit change are visible before any matrix. A Bell inequality is still a later lab.
 
-Advanced mathematics is not a prerequisite for the first lab. Vectors, addition, and a square root are. The lab shows each vector it uses.
+Advanced mathematics is not a prerequisite for the first lab. Vectors, addition, and a square root are. The advanced notebook shows each vector it uses. The beginner notebook shows the amplitudes of the three states it builds.
 
 ## Remembering
 

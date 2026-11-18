@@ -6,8 +6,8 @@ You can learn the foundations of Lab 001 with no IBM account and no quantum comp
 
 1. Read [vision.md](vision.md) if you want the purpose, or skip to the lab if you want the work.
 2. Open [the Lab 001 overview](../labs/01_entanglement/README.md).
-3. Read the notebook, or follow a facilitator who runs it. Use [the worksheet](../labs/01_entanglement/STUDENT_WORKSHEET.md) to write predictions and interpretations.
-4. If you are in a room with Qubi kits, use the observation prompts in section 08 of the notebook. The physical activity is Qolour's Bell Pairs lesson, linked from [the Qubi page](../qubis/bell-pairs/README.md).
+3. Open the beginner notebook, [entanglement_beginner.ipynb](../labs/01_entanglement/entanglement_beginner.ipynb), or follow a facilitator who runs it. Use [the worksheet](../labs/01_entanglement/STUDENT_WORKSHEET.md) when you move on to the advanced notebook.
+4. If you are in a room with Qubi kits, use Stop 1 of the beginner notebook. The physical activity is Qolour's Bell Pairs lesson, linked from [the Qubi page](../qubis/bell-pairs/README.md). The advanced notebook keeps the same observation in section 08.
 
 Stop here if your question was "what is this state, and what would a measurement show?"
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python tests/smoke_lab001.py
 ```
 
-4. Open [labs/01_entanglement/entanglement_hands_to_hardware.ipynb](../labs/01_entanglement/entanglement_hands_to_hardware.ipynb) in any notebook tool and run the cells from top to bottom. Leave `RUN_REAL_HARDWARE` set to `False`.
+4. Open [labs/01_entanglement/entanglement_beginner.ipynb](../labs/01_entanglement/entanglement_beginner.ipynb) in Jupyter or Colab and run the cells from top to bottom. Leave `RUN_REAL_HARDWARE` and `I_AUTHORIZE_ONE_QPU_JOB` set to `False`. The advanced notebook, [entanglement_hands_to_hardware.ipynb](../labs/01_entanglement/entanglement_hands_to_hardware.ipynb), is the original reference. Leave its hardware flag `False` as well.
 
 You now have your own counts. Write what they show, and what they do not show, on the worksheet.
 

@@ -11,7 +11,9 @@ We link these sources. We do not copy their courses into this repository.
 | [IBM Quantum documentation](https://quantum.cloud.ibm.com/docs/) | The current entry point for Qiskit and IBM Quantum Platform. |
 | [IBM Quantum Learning](https://quantum.cloud.ibm.com/learning/) | Courses and classroom modules. Lab 001 is not a substitute for a course. |
 | [Qolour](https://www.qolour.com/) | The organization that makes Qubi, the physical model qubit. |
-| [Qolour, Bell Pairs lesson](https://www.qolour.com/educator-course/bell-pairs) | The hands-on lesson section 08 of Lab 001 asks you to use. |
+| [Qolour, Bell Pairs lesson](https://www.qolour.com/educator-course/bell-pairs) | The hands-on lesson. Stop 1 of the beginner notebook and section 08 of the advanced notebook both point here. |
+| [Qolour Quickstart](https://www.qolour.com/quickstart) | Battery, orientation, app, and firmware steps for a physical Qubi. Opened 18 November 2026. |
+| [Qolour, send a Qubi activity to a quantum computer](https://www.qolour.com/send-to-qc) | The app's own route. It is separate from the Lab 001 notebook. Opened 18 November 2026. |
 
 ## Pages Lab 001 uses
 

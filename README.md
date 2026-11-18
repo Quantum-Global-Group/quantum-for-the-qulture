@@ -61,7 +61,7 @@ Yes. The notebook simulates the Bell circuit locally. The hardware section is in
 ## Start here
 
 1. Read [docs/getting-started.md](docs/getting-started.md) and choose level 1, 2, or 3.
-2. Open [Lab 001](labs/01_entanglement/README.md).
+2. Open [Lab 001](labs/01_entanglement/README.md). The beginner notebook is the first lesson. The original notebook remains the advanced reference.
 3. If you write code, install from [requirements.txt](requirements.txt) and run `python tests/smoke_lab001.py` before you trust your setup.
 4. Keep secrets out of git. The rules are in [docs/security-and-privacy.md](docs/security-and-privacy.md).
 
@@ -77,7 +77,7 @@ The path a person walks is [docs/learner-journey.md](docs/learner-journey.md). H
 
 | Lab | Status | Question |
 | --- | --- | --- |
-| [001. Entanglement: From Your Hands to Real Hardware](labs/01_entanglement/README.md) | Complete | Can I see, represent, build, simulate, and interpret a Bell state? |
+| [001. Entanglement: From Your Hands to Real Hardware](labs/01_entanglement/README.md) | Complete. Beginner notebook first, advanced notebook kept. | Can I see, represent, build, simulate, and interpret a Bell state? |
 
 ## Career pathways
 
@@ -96,7 +96,7 @@ CONTRIBUTING.md           how to propose a change
 LICENSE                   notice: a final license is not chosen
 requirements.txt          tested local packages
 docs/                     vision, pathway, access, security
-labs/01_entanglement/     Lab 001 notebook, worksheet, instructor guide
+labs/01_entanglement/     Lab 001 beginner notebook, advanced notebook, worksheet, instructor guide
 templates/                starting points for the next lab
 qubis/bell-pairs/         pointer to Qolour's lesson
 resources/official-docs.md

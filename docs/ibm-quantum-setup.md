@@ -13,7 +13,7 @@ Checked on 18 November 2026, with Python 3.12.3, and with no IBM credentials in 
 | qiskit | 2.6.2 | Circuits, statevectors, local primitives, transpiler |
 | numpy | 2.5.5 | Arrays used by those objects |
 | matplotlib | 3.11.2 | The counts chart in Lab 001 |
-| qiskit-ibm-runtime | 0.52.1 | Imported locally to confirm symbols. Not used to open an account or submit a job. Not required for Lab 001. |
+| qiskit-ibm-runtime | 0.52.1 | Imported locally to confirm symbols, including that `qiskit_ibm_runtime.Sampler` and `qiskit_ibm_runtime.executor_sampler.Sampler` are the same class. Not used to open an account or submit a job. Not required for Lab 001. |
 
 Qiskit 2.6.2 requires Python 3.10 or newer. The local notebook was executed against the three required packages. The runtime package was inspected for import paths only.
 
@@ -28,9 +28,9 @@ pip install -r requirements.txt
 python tests/smoke_lab001.py
 ```
 
-Then open the Lab 001 notebook and run it with `RUN_REAL_HARDWARE` left `False`.
+Then open the beginner notebook, [labs/01_entanglement/entanglement_beginner.ipynb](../labs/01_entanglement/entanglement_beginner.ipynb), and run it with `RUN_REAL_HARDWARE` and `I_AUTHORIZE_ONE_QPU_JOB` left `False`. The advanced notebook, [entanglement_hands_to_hardware.ipynb](../labs/01_entanglement/entanglement_hands_to_hardware.ipynb), is the original reference. Leave its `RUN_REAL_HARDWARE` flag `False` as well.
 
-The notebook uses `QuantumCircuit`, `Statevector`, `StatevectorSampler`, `StatevectorEstimator`, and `generate_preset_pass_manager`. Those are current Qiskit SDK interfaces. The local sampler and estimator are the reference implementations of the version-2 primitive interfaces. A primitive unified bloc, or PUB, is the tuple you hand to `run`. Lab 001 prints the tuples it uses.
+Both notebooks use `QuantumCircuit`, `Statevector`, `StatevectorSampler`, `StatevectorEstimator`, and `generate_preset_pass_manager`. Those are current Qiskit SDK interfaces. The local sampler and estimator are the reference implementations of the version-2 primitive interfaces. A primitive unified bloc, or PUB, is the tuple you hand to `run`. Lab 001 prints the tuples it uses. The beginner notebook also shows `SparsePauliOp`, `Parameter`, and `assign_parameters`.
 
 Retired interfaces are not used. In particular, the notebook does not call `IBMQ.load_account()` and does not call `execute()`.
 
@@ -52,7 +52,7 @@ When the notebook's hardware flag is set in your private copy, the code does fou
 
 1. It constructs `QiskitRuntimeService()` with no token in the source, so the saved account is read from your machine.
 2. It selects an operational backend with `least_busy(min_num_qubits=2, operational=True, simulator=False)`.
-3. It transpiles with `generate_preset_pass_manager` and submits one sampler job of 1024 shots through the client-side `Sampler` (`from qiskit_ibm_runtime import Sampler`). In version 0.52.1 that name is the client-side primitive, and `SamplerV2` is an alias of the same class. The older server-side sampler lives under `qiskit_ibm_runtime.server_side` and is not the path this lab uses.
+3. It transpiles with `generate_preset_pass_manager` and submits one sampler job through the client-side `Sampler`. The advanced notebook imports it as `from qiskit_ibm_runtime import Sampler` and requests 1024 shots. The beginner notebook imports the same class explicitly as `from qiskit_ibm_runtime.executor_sampler import Sampler` and requests 256 shots, and only after both flags are true and the learner types `RUN`. In version 0.52.1 those two import paths refer to one class, and `SamplerV2` is an alias of that class. The older server-side sampler lives under `qiskit_ibm_runtime.server_side` and is not the path this lab uses. This identity was checked by importing the package locally on 18 November 2026. No service was constructed for that check, and no job was submitted.
 4. It prints the backend name, the qubit count, the transpiled circuit, the shot count, and the counts. It does not print the token, the instance identifier, or the account.
 
 As of the 0.52.1 source inspected locally, `least_busy` still accepts `operational` and `simulator` as filters. That matches the `backends` examples in the installed package. Confirm the signature in the version you install before you rely on it.

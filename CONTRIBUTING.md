@@ -27,7 +27,7 @@ pip install -r requirements.txt
 python tests/smoke_lab001.py
 ```
 
-The smoke test checks the Bell-state mathematics, the local sampler, local transpilation, relative links, and the hardware flag. It does not contact IBM.
+The smoke test checks the Bell-state mathematics, the 18 beginner questions, the local sampler, local transpilation, relative links, and the hardware flags. It runs the beginner notebook's local cells with both hardware switches off. It does not contact IBM and it does not submit a job.
 
 ## Documentation
 
